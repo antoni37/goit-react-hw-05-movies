@@ -1,0 +1,34 @@
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #126b18dc;
+    margin-bottom: 30px;
+  }
+  
+  .navigation::before {
+    content: '';
+    background-image: url(./SVG/movie.svg);
+    background-size: cover;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 100px;
+  }
+  
+  .active {
+    color: rgb(255, 132, 0);
+  }
+  
+  .loading {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #7400bc29;
+    position: absolute;
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+  }
